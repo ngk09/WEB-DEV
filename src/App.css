@@ -1,0 +1,91 @@
+/* App.css */
+header {
+    display: flex;
+    justify-content: space-between; /* Creates space between the logo and button */
+    align-items: center; /* Vertically aligns items in the center */
+    padding: 10px 20px; /* Adds some padding around the header */
+  }
+  
+  .logo img {
+    width: 100px; /* Adjusts the size of the logo */
+  }
+  
+  .menu {
+    display: flex;
+    justify-content: center;
+    flex-grow: 1;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Allows the menu to take up available space between logo and button */
+  }
+  
+  .items {
+    list-style-type: none; /* Removes bullet points from the list */
+    display: flex; /* Aligns the list items in a row */
+    gap: 20px; /* Adds space between list items */
+    padding: 0; /* Removes default padding */
+    margin: 0; /* Removes default margin */
+  }
+  
+  .button {
+    display: flex;
+    justify-content: flex-end; /* Aligns the button to the right */
+  }
+  
+  button {
+    padding: 10px 15px; /* Adds some padding to the button */
+    background-color: #007bff; /* Adds a color to the button */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .text
+  {
+font-size: 55px;
+
+
+
+  }
+  p{
+    font-size: 20px;
+  }
+  .container{
+  display : flex;
+  align-items: center;
+  height: calc(100vh - 72px);
+
+
+  }
+.hero h1{
+
+  font-weight: 800;
+  line-height:102px;
+  font-size:108px;
+}
+  
+.hero p{
+ font-weight: 600;
+ color: var(--gray); 
+}
+
+.hero-btn{
+
+  display: flex;
+  gap : "70px";
+  
+}
+
+.secondary-btn{
+ border: 1px solid
+}
+
+.hero-btn {
+  display: flex; /* Ensures buttons are on the same line */
+  gap: 15px; /* Adds space between the buttons */
+  margin-bottom: 20px; /* Adds space below the buttons */
+}
+
+.brand-icons img {
+  display: inline-flex;
+  margin-right: 15px;
+  margin-bottom: 20px; /* Adds space between images */
+}
